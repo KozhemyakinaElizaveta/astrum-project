@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 1024px;
+    background-image: url('../../assets/background\ wall.png');
+    background-repeat: no-repeat;
+    box-shadow: 0px -100px 90px 0px rgba(0, 0, 0, 0.95);
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+}
+
+.spark{
+    position: relative;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    box-shadow:
+    0 0 100px 5px #fff,
+    0 0 100px 100px rgb(80, 172, 248),
+    0 0 340px 180px rgb(26, 96, 248);
+}
+
+.dog{
+    position: absolute;
+    width: 441px;
+    height: auto;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 200px;
+}
+
+.get{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 150px;
+}
+
+.box{
+    width: 402px;
+    height: auto;
+}
+
+.buy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -150px;
+}
+
+.cost{
+    color: #fff;
+    font-weight: 400;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color:#416DF4;
+    margin-top: 50px;
+}
+
+a {
+    display: inline-block;
+    padding: 15px 25px;
+    margin-top: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    transition: 0.5s;
+}
+
+.button{
+    color: #416DF4;
+    border: 1.5px solid #416DF4;
+    border-radius: 7px;  
+}
+
+.button:hover{
+    background-color: #416DF4;
+    color: #050801;
+    box-shadow: 0px 0px 5px #416DF4, 0px 0px 25px #416DF4, 0px 0px 50px #416DF4, 0px 0px 100px #416DF4;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0005); 
+}
+

@@ -1,0 +1,12 @@
+.app {
+    width: 100%;
+    min-height: 1080px;
+    overflow: hidden;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
