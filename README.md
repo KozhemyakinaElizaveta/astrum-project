@@ -1,5 +1,5 @@
 # Аллоды Онлайн
-![img](./public/assets/logo.jpg)
+![img](./src/images//logo.png)
 
 Приложение развернуто на [GitHub Pages](https://kozhemyakinaelizaveta.github.io/astrum-project).
 
