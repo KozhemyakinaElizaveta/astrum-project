@@ -5,7 +5,7 @@
     flex-direction: row;
     justify-content: space-between;
     min-height: 1024px;
-    background-image: url('../../assets/background\ wall.png');
+    background-image: url('../../images/background\ wall.png');
     background-repeat: no-repeat;
     box-shadow: 0px -100px 90px 0px rgba(0, 0, 0, 0.95);
 }

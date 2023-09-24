@@ -1,8 +1,8 @@
 import styles from './Overview.module.css';
-import logo from '../../assets/logo.png';
-import boxes from '../../assets/boxes.png';
-import character1 from '../../assets/MafiaCostume_2022 2.png';
-import character2 from '../../assets/MafiaCostume_2022 3.png';
+import logo from '../../images/logo.png';
+import boxes from '../../images/boxes.png';
+import character1 from '../../images/MafiaCostume_2022 2.png';
+import character2 from '../../images/MafiaCostume_2022 3.png';
 
 function Overview(){
     return(

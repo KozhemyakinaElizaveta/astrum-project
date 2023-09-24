@@ -1,6 +1,6 @@
 import styles from './Info.module.css';
-import dog from '../../assets/Vito 1.png';
-import box from '../../assets/box.png';
+import dog from '../../images/Vito 1.png';
+import box from '../../images/box.png';
 import {Tab} from '../tab/Tab';
 import { date } from '../../utils/data';
 
